@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .grand-parent{
+            border: 5px solid green;
+        }.grand-parent p{
+            color: aliceblue;
+            background-color: crimson;
+        }.grand-parent>p{
+            color: khaki;
+            background-color: teal;
+        } */
+        body{
+            background-color: tan;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+
+        }
+        .col-33{
+            width: 33%;
+            background-color: crimson;
+            color: aliceblue;
+        }
+        h1{
+            font-size: 50px;
+            padding: 10px 0px;
+            background-color: teal;
+            color: khaki;
+        }
+        .container>p{
+            font-size: 30px;
+            padding: 10px 0px;
+            background-color: khaki;
+            color: teal;
+        }
+        .col-33>p{
+            font-size: 20px;
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 10px 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+        <div class="col-33">
+            <h2>Sub Title</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-33">
+            <h2>Sub Title</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="col-33">
+            <h2>Sub Title</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        
+    </div>
+    <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+</div>
+    <!-- <div class="grand-parent">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="Chacha"><p>Lorem ipsum dolor sit.</p></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="Chacha"><p>Lorem ipsum dolor sit.</p></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="Chacha"><p>Lorem ipsum dolor sit.</p></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="Chacha"><p>Lorem ipsum dolor sit.</p></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div> -->
+</body>
+</html>
